@@ -1,5 +1,5 @@
 .menu-container{
-    border: 1px solid red;
+    
     display: flex;
     justify-content: center;
     width: 0 auto;
@@ -10,7 +10,7 @@
 
 .item {
     margin: 5px;
-    border: 1px solid blue;
+    border: 0.1px solid #ddd;
 	width: 320px;
 	text-align: center;
     font-size: 1.5em;
@@ -19,29 +19,24 @@
     justify-content: center;
     display: flex;
    flex-direction: column;
-    
-    
-  
-    
+   box-shadow: 3px 3px 10px #ddd;
 }
 
 .img{
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     align-self: center;
 }
 
 .legenda{
     border: 1px solid white;
     background: white;
-   
-    width: auto;  
-    display: flex;
-
 }
 
 .geometrico{
-    margin: auto;
+    
+    margin: 0px auto;  
+   
     border-bottom: 35px solid white;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
@@ -49,11 +44,50 @@
     width: 100px;
     -webkit-border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+   
+}
+
+.body-legend{
+    width: 100%;
+    display: block;
+    
 }
 
 .nomePokemon{
     margin-bottom: 30px;
-   padding-left: 5px;
-   
+   padding-left: 10px;
+   text-align: left;
     font-size: 20px;
 }
+
+.botao-container{
+display: flex;
+flex-direction: row;
+}
+
+.botao{
+    border: 1px solid #F8F8FF;
+    background: #7FFF00;
+    width: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.botao1{
+    border: 1px solid #F8F8FF;
+    background: #FF00FF;
+    width: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin-left: 5px;
+
+}
+

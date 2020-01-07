@@ -64,20 +64,28 @@ function Body() {
                 <div className="item">
 
                     <img src={e.imgURL} alt='imagem' className='img' />
-                    <p className="geometrico"> {e.id} 
+                    <p className="geometrico"> <strong>{e.id}  </strong>
                    
                     </p>
 
                     <div className="legenda">
-                      <p className="nomePokemon"> {e.nome}</p>
+                        <div className="body-legend">
+                      <div className="nomePokemon"> <strong>{e.nome}</strong>
+                            <div className="botao-container">
+                                <div className="botao">
+     
+                                    Grass
+                         
+                                </div>
 
-      
+                                <div className="botao1">
+                                    Poison
+                                </div>
+                            </div>
+                      </div>
+
+                      </div>
                     </div>
-                   
-                    
-                    
-                  
-                
 
                 </div>
                 
