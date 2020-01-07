@@ -58,36 +58,45 @@ function Body() {
 
     return (
 
-        <div className="menu-container">
+        <div className="menu-container"  >
             {imagem.map(e =>
+            
+                <div className="flipper" >
+                    <div className="item" >
 
-                <div className="item">
-
-                    <img src={e.imgURL} alt='imagem' className='img' />
-                    <p className="geometrico"> <strong>{e.id}  </strong>
+                        <img src={e.imgURL} alt='imagem' className='img' />
+                        <p className="geometrico"> <strong>{e.id}  </strong>
                    
-                    </p>
+                        </p>    
 
-                    <div className="legenda">
-                        <div className="body-legend">
-                      <div className="nomePokemon"> <strong>{e.nome}</strong>
-                            <div className="botao-container">
-                                <div className="botao">
+                        <div className="legenda">
+                            <div className="body-legend">
+                                <p className="nomePokemon"> <strong>{e.nome}</strong>
+                                    <div className="botao-container">
+                                        <div className="botao">
      
-                                    Grass
+                                            Grass
                          
-                                </div>
+                                        </div>
 
-                                <div className="botao1">
-                                    Poison
-                                </div>
+                                        <div className="botao1">
+                                            Poison
+                                        </div>
+                                    </div>
+                                </p>
                             </div>
-                      </div>
-
-                      </div>
+                        </div>
+                    
+                    
                     </div>
+                        <div className="cartao-back">
+                            teste
+                        </div>
+                    
 
-                </div>
+
+                
+            </div>
                 
 
             )}

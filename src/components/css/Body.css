@@ -5,6 +5,7 @@
     width: 0 auto;
     margin: 20px;
     flex-wrap: wrap;
+    perspective: 1000px;
     
 }
 
@@ -15,7 +16,7 @@
 	text-align: center;
     font-size: 1.5em;
     height: 300px;  
-    background: #C0C0C050;
+    background: #e9e8e9;
     justify-content: center;
     display: flex;
    flex-direction: column;
@@ -67,7 +68,7 @@ flex-direction: row;
 
 .botao{
     border: 1px solid #F8F8FF;
-    background: #7FFF00;
+    background: #9ccc51;
     width: 40px;
     font-size: 12px;
     margin-top: 10px;
@@ -79,7 +80,7 @@ flex-direction: row;
 
 .botao1{
     border: 1px solid #F8F8FF;
-    background: #FF00FF;
+    background: #b97fc9;
     width: 40px;
     font-size: 12px;
     margin-top: 10px;
@@ -90,4 +91,28 @@ flex-direction: row;
     margin-left: 5px;
 
 }
+
+.flipper{
+    
+    height: 100%;
+    transition: transform .4s;
+  transform-style: preserve-3d;
+  }
+
+  .menu-container:hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+  
+
+  .item, .cartao-back {
+  
+    backface-visibility: hidden;
+    z-index: 1;
+  }
+  
+  .cartao-back {
+    transform: rotateY(180deg);
+    background: red;
+  }
 
