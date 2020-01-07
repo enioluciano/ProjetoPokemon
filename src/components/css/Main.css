@@ -1,0 +1,13 @@
+.main{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.item1{
+    border: 1px solid blue;
+    height: 200px;
+    width: 50px;
+    
+    
+}

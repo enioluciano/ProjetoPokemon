@@ -1,0 +1,59 @@
+.menu-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    width: 0 auto;
+    margin: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    margin: 5px;
+    border: 1px solid blue;
+	width: 320px;
+	text-align: center;
+    font-size: 1.5em;
+    height: 300px;  
+    background: #C0C0C050;
+    justify-content: center;
+    display: flex;
+   flex-direction: column;
+    
+    
+  
+    
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.legenda{
+    border: 1px solid white;
+    background: white;
+   
+    width: auto;  
+    display: flex;
+
+}
+
+.geometrico{
+    margin: auto;
+    border-bottom: 35px solid white;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    height: 0;
+    width: 100px;
+    -webkit-border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.nomePokemon{
+    margin-bottom: 30px;
+   padding-left: 5px;
+   
+    font-size: 20px;
+}
