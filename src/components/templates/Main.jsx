@@ -8,23 +8,17 @@ import '../css/Main.css'
 function Main() {
   return (
       
-           <div className="main">
-               <div className="item1">
-                   teste 1
-               </div>
-
-               <div className="item1">
-                   teste 1
-               </div>
-
-               <div className="item1">
-                   teste 1
-               </div>
-
-               <div className="item1">
-                   teste 1
-               </div>
-           </div>
+    <div class="flip-container"
+    ontouchstart="this.classList.toggle('hover');">  	
+      <div class="flipper">  		
+        <div class="front">  			
+          oi
+        </div>  		
+        <div class="back">  			
+          ei		
+        </div>  	
+      </div>  
+    </div>
 
        
   );

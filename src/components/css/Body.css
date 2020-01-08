@@ -5,7 +5,7 @@
     width: 0 auto;
     margin: 20px;
     flex-wrap: wrap;
-    perspective: 1000px;
+    perspective: 600px;
     
 }
 
@@ -99,20 +99,26 @@ flex-direction: row;
   transform-style: preserve-3d;
   }
 
-  .menu-container:hover .flipper {
-    transform: rotateY(180deg);
+  #rotaciona {
+    transform: rotateY(-180deg);
   }
+  
 
   
 
   .item, .cartao-back {
   
     backface-visibility: hidden;
-    z-index: 1;
+    z-index: 2;
   }
   
   .cartao-back {
+    position: absolute;
+    top: 0px;
     transform: rotateY(180deg);
     background: red;
-  }
+    right: 0%;
+    height: 302px;
+    width: 100%;
+}
 

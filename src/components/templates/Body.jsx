@@ -54,14 +54,32 @@ function Body() {
         },
 
         ]
+       // var elemento = document.getElementById('flipper-click');
 
 
+        function roda(id) {
+            var elemento = document.getElementById('#rotaciona');
+            console.log(elemento)}
+         //   elemento.addEventListener('click', function(){
+           //     element.ClassList.toggle ('flipper')
+         //   })
+
+      //  }
+          
+
+          
+     
+
+           
     return (
 
         <div className="menu-container"  >
             {imagem.map(e =>
             
-                <div className="flipper" >
+            <div className="flipper" id="rotaciona" onClick={()=>roda('#rotaciona')} >
+                
+               
+
                     <div className="item" >
 
                         <img src={e.imgURL} alt='imagem' className='img' />
