@@ -58,25 +58,20 @@ function Body() {
 
 
         function roda(id) {
-            var elemento = document.getElementById('#rotaciona');
-            console.log(elemento)}
-         //   elemento.addEventListener('click', function(){
-           //     element.ClassList.toggle ('flipper')
-         //   })
-
-      //  }
-          
-
-          
-     
-
+            var elemento = document.getElementById(id);
            
+            elemento.classList.toggle('rotaciona')
+        
+        }
+
+         
+    
     return (
 
         <div className="menu-container"  >
             {imagem.map(e =>
             
-            <div className="flipper" id="rotaciona" onClick={()=>roda('#rotaciona')} >
+            <div className="flipper" id={e.id} onClick={()=>roda(e.id)}>
                 
                
 
@@ -108,7 +103,33 @@ function Body() {
                     
                     </div>
                         <div className="cartao-back">
-                            teste
+                        <div className="item" >
+
+<img src={e.imgURL} alt='imagem' className='img' />
+<p className="geometrico"> <strong>{e.id}  </strong>
+
+</p>    
+
+<div className="legenda">
+    <div className="body-legend">
+        <p className="nomePokemon"> <strong>{e.nome}</strong>
+            <div className="botao-container">
+                <div className="botao">
+
+                    Grass
+ 
+                </div>
+
+                <div className="botao1">
+                    Poison
+                </div>
+            </div>
+        </p>
+    </div>
+</div>
+
+
+</div>
                         </div>
                     
 
