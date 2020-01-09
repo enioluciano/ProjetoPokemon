@@ -103,7 +103,7 @@ function Body() {
                 </div>
               </div>
               <div className="body-back">
-                <h3>Fast Attacks</h3>
+                <h4>Fast Attacks</h4>
 
                 <table className="table">
                   <tr>
@@ -115,17 +115,41 @@ function Body() {
                   <tbody>
                     <tr>
                       <td>Razor Leaf</td>
-                      <td id="botao-tabela">
-                       Grass
-                      </td>
+                      <td className="botao-tabela">Grass</td>
                       <td>15</td>
                     </tr>
                     <tr>
                       <td>Vine Wip</td>
-                      <td id="botao-tabela">
-                        Grass
-                      </td>
+                      <td className="botao-tabela">Grass</td>
                       <td>7</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h4>Special Attacks</h4>
+
+                <table className="table">
+                  <tr>
+                    <th>Attack</th>
+                    <th>Type</th>
+                    <th>Power</th>
+                  </tr>
+
+                  <tbody>
+                    <tr>
+                      <td>Power Whip</td>
+                      <td className="botao-tabela">Grass</td>
+                      <td>70</td>
+                    </tr>
+                    <tr>
+                      <td>Sludge Bomb</td>
+                      <td className="botao-tabela2">Poison</td>
+                      <td>55</td>
+                    </tr>
+                    <tr>
+                      <td>Solar Beam</td>
+                      <td className="botao-tabela">Grass</td>
+                      <td>120</td>
                     </tr>
                   </tbody>
                 </table>
