@@ -125,3 +125,89 @@ flex-direction: row;
     width: 100%;
 }
 
+/** VERSO DO CARTÃO
+**
+**
+**/
+.container-back{
+    margin: 5px;
+    border: 0.1px solid #ddd;
+	width: 320px;
+	
+   
+    height: 300px;  
+    background: #e9e8e9;
+ 
+   box-shadow: 3px 3px 10px #ddd;
+}
+
+.conteudo-back{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.display-topo{
+    border: 1px solid #e9e8e9;
+    
+    margin: 15px 0px 0px 15px;
+    width: 120px;
+    height: 55px;
+    background: #edeced;
+    
+    
+
+}
+.conteudo-topo{
+    font-size: 12px;
+    
+    padding: 3px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+
+.numero{
+    font-size: 24px;    
+    text-align: center;
+}
+
+.body-back{
+    border: 1px solid red;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.table{
+    font-size: 12px;
+    
+    margin-top: 5px;
+    
+}
+tr{
+    text-align: center;
+    padding: 1px;
+}
+
+
+
+
+
+#botao-tabela{
+    border: 1px solid #F8F8FF;
+    background: #9ccc51;
+    width: 30px;
+    font-size: 10px;
+    padding: 3px;
+    
+    border-radius: 5px;
+    
+}
+
+
+
+
